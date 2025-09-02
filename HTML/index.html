@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pataza Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/Encabezado.css">
+    <link rel="stylesheet" href="../CSS/Style-body.css">
+    <link rel="stylesheet" href="../CSS/Footer.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="encabezado">
+        <div class="logoVP">
+            <a href="../HTML/index.html">
+                <img href="/HTML/Productos.html" src="../SRC/Logo_patitas.png" alt="Logo Veterinaria Patitas">
+            </a>
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="../HTML/Index.html">Inicio</a></li>
+                <li><a href="../HTML/Productos.html">Productos</a></li>
+                <li><a href="../HTML/Servicios.html">Servicios</a></li>
+                <li><a href="../HTML/Contacto.html">Contactos</a></li>
+                <li><a href="../HTML/Nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+        <a href="../PHP/index.php" class="boton_ingresar_registrarse"><button>Iniciar Sesión</button></a>
+        <a onclick="openNav()" href="#" class="boton-menu"><button>Menú</button></a>
+        
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="#" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="../HTML/index.html">Inicio</a>
+                <a href="../HTML/Productos.html">Productos</a>
+                <a href="../HTML/Servicios.html">Servicios</a>
+                <a href="../HTML/Contacto.html">Contactos</a>
+                <a href="../HTML/Nosotros.html">Nosotros</a>
+
+                <div class="boton-nosotros">
+                    <a href="IniciaSesion.html"><button>Iniciar Sesión</button></a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- <div class="banner-carrusel">
+        <img src="/SRC/Banner-1.png" class="img-banner">
+    </div> -->
+    
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../SRC/Banner-1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="../SRC/Banner-3.png" class="d-block w-100" alt="...">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section class="Nosotros-index">
+        <div class="descripcionNosotros-index">
+            <h2>PATAZA STORE</h2>
+            <span class="line-titulo"></span>
+            <p>
+                Creemos que la moda no tiene por qué ser solo para humanos. Nuestro equipo de diseñadores y amantes de los animales
+                está comprometido con crear prendas que celebren el vínculo único entre tú y tu mascota.
+                <br></br>
+                Cada conjunto está pensado para combinar estilo, comodidad y personalidad, porque sabemos que tu peludo no es solo 
+                tu compañero: es parte de tu identidad. Desde looks urbanos hasta colecciones de temporada, ofrecemos ropa coordinada
+                para humanos y mascotas que quieren destacar juntos.
+            </p>
+            <div class="boton-nosotros">
+                <a href="Nosotros.html"><button>Más información</button></a>
+            </div>
+        </div>
+        <div class="img-veterinaria">
+            <img class="Cirugía" src="../SRC/Cirugía..jpg">
+        </div>
+        
+    </section>
+    <section class="Especialistas-index">
+        <h2>COLABORADORES</h2>
+        <div class="descripcionEspecialistas-index">
+            <!--Tarjeta de presentación- veterinarios-->
+            <div class="card">
+                <div class="head">
+                    <div class="circle"></div>
+                    <div class="img">
+                        <img src="../SRC/Vet-1.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="descripcion">
+                    <h3>Dra. Marisol Canepa</h3>
+                    <h4>Administradora</h4>
+                    <p>Marisol Canepa, con una sólida experiencia en gestión y 
+                    una pasión por los animales, dirige con eficiencia las operaciones diarias de nuestra tienda. Su dedicación 
+                    y habilidades organizativas garantizan un funcionamiento fluido y una excelente atención para nuestras queridas 
+                    mascotas y sus compañeros.</p>
+                </div>
+            </div>
+            <!--Veterinaria 2-->
+            <div class="card">
+                <div class="head">
+                    <div class="circle-2"></div>
+                    <div class="img">
+                        <img src="../SRC/Vet-2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="descripcion">
+                    <h3>Dr. Jorge Prado</h3>
+                    <h4>Fundador de Pataza Store</h4>
+                    <p>Jorge Prado, con una profunda pasión por los animales y una visión de mejorar su bienestar, estableció esta 
+                    tienda con el objetivo de brindar un cuidado y calidad excepcional,lidera la empresa en la misión de proporcionar un 
+                    cuidado integral y personalizado a nuestras queridas mascotas y compañeros.</p>
+                </div>
+            </div>
+            <!--Veterinaria 3-->
+            <div class="card">
+                <div class="head">
+                    <div class="circle"></div>
+                    <div class="img">
+                        <img src="../SRC/Vet-3.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="descripcion">
+                    <h3>Dra. Micaela Saenz</h3>
+                    <h4>Gerente general</h4>
+                    <p>Con una habilidad excepcional en la gestión, Micaela Saenz lidera nuestro equipo en la tienda. 
+                    Su enfoque centrado en el cliente, su liderazgo inspirador y su compromiso con la excelencia garantizan 
+                    una experiencia sobresaliente para nuestras queridas mascotas y sus dueños.</p>
+                </div>
+            </div>
+        </div>
+        <div class="boton-vm-especialistas">
+            <a href="Servicios.html"><button>Ver más</button></a>
+        </div>
+    </section>
+
+    <section class="section-servicios-vp">
+        <h1>NUESTROS CLIENTES</h1>
+        <div class="container-serv">
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="../SRC/Paciente-1.jpg" alt="">
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="../SRC/Paciente-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="../SRC/Paciente-3.jpg" alt="">
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="../SRC/Paciente-4.jpg" alt="">
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="../SRC/Paciente-5.jpg" alt="">
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="../SRC/Paciente-6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>        
+
+    <div class="Contactanos">
+        <a href="../HTML/Contacto.html">Contáctanos</a>
+    </div>
+    <div class="Mapa" id="Mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.044473454168!2d-77.0710766!3d-11.9714228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cf3e297f80dd%3A0xe173c846dfb9814b!2sMi%20Pataza%20PetShop!5e0!3m2!1ses-419!2spe!4v1756833755091!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer>
+        <div class="footer">
+             <div class="social">
+                 <a href="https://www.instagram.com/veterinaria.patitas/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://walink.co/2a4edc"><i class="fab fa-whatsapp"></i></a>
+                 <a href="https://www.facebook.com/Veterinaria-Patitas-103055171431405/"><i class="fab fa-facebook-f"></i></a>
+             </div>
+ 
+             <ul class="list">
+                 <li>
+                     <a href="../HTML/index.html">Inicio</a>
+                 </li>
+                 <li>
+                     <a href="../HTML/Productos.html">Productos</a>
+                 </li>
+                 <li>
+                     <a href="../HTML/Servicios.html">Servicios</a>
+                 </li>
+                 <li>
+                     <a href="../HTML/Contacto.html">Contacto</a>
+                 </li>
+                 <li>
+                     <a href="../HTML/Nosotros.html">Nosotros</a>
+                 </li>
+             </ul>
+             <p class="copyright">
+                 Pataza Store © 2025 | Derechos reservados
+             </p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="../JS/Slide.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

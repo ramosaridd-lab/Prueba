@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/Encabezado.css">
+    <link rel="stylesheet" href="../CSS/Style-body.css">
+    <link rel="stylesheet" href="../CSS/Footer.css">
+    <link rel="stylesheet" href="../CSS/Productos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="encabezado">
+        <div class="logoVP">
+            <a href="../HTML/index.html">
+                <img href="../HTML/Productos.html" src="../SRC/Logo_patitas.png" alt="Logo Veterinaria Patitas">
+            </a>
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="../HTML/Index.html">Inicio</a></li>
+                <li><a href="../HTML/Productos.html">Productos</a></li>
+                <li><a href="../HTML/Servicios.html">Servicios</a></li>
+                <li><a href="../HTML/Contacto.html">Contactos</a></li>
+                <li><a href="../HTML/Nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+        <a href="IniciaSesion.html" class="boton_ingresar_registrarse"><button>Iniciar Sesión</button></a>
+        <a onclick="openNav()" href="#" class="boton-menu"><button>Menú</button></a>
+        
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="#" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="../HTML/index.html">Inicio</a>
+                <a href="../HTML/Productos.html">Productos</a>
+                <a href="../HTML/Servicios.html">Servicios</a>
+                <a href="../HTML/Contacto.html">Contactos</a>
+                <a href="../HTML/Nosotros.html">Nosotros</a>
+
+                <div class="boton-nosotros">
+                    <a href="IniciaSesion.html"><button>Iniciar Sesión</button></a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="productos-ctn">
+        <!-- <h1>PRODUCTOS</h1> -->
+        <div class="all-productos">
+
+            <div class="productos-container">
+                <img src="../SRC/cama-gato-cueva2.jpg" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Sudadera Esencial-Azul</h4>
+                    <p class="producto-precio">S/. 89.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/Arnes-perro1.jpg.png" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Sudadera con capucha</h4>
+                    <p class="producto-precio">S/. 74.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/Mochila-transportadora.jpg" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Conjunto pijama-Algodón</h4>
+                    <p class="producto-precio">S/. 99.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/Rascador-cartón.jpg" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Sudadera de Terciopelo</h4>
+                    <p class="producto-precio">S/. 79.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/Transportador.png" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Alpine Sudadera</h4>
+                    <p class="producto-precio">S/. 99.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/Pelota dispensador.jpg" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Sudadera con capucha</h4>
+                    <p class="producto-precio">S/. 84.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/Bebedero-agua.jpg" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Sudadera cuadros</h4>
+                    <p class="producto-precio">S/. 99.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/Cama-perro.jpg" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Daisy Sudadera</h4>
+                    <p class="producto-precio">S/. 80.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="alimentoSeco">
+        <h1>ALIMENTO SECO</h1>
+        <div class="all-productos">
+
+            <div class="productos-container">
+                <img src="../SRC/Proplan-perros.jpg" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">ProPlan Adult 3kg</h4>
+                    <p class="producto-precio">S/. 105.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/GranPlus-perros.png" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Gran Plus 3kg</h4>
+                    <p class="producto-precio">S/. 57.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/Canbo-perros.png" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Canbo Adulto 3kg</h4>
+                    <p class="producto-precio">S/. 56.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/Ricocan-perro.jpg" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Ricocan 3kg</h4>
+                    <p class="producto-precio">S/. 37.50</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/Proplan-gatos.jpg" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">ProPlan Adult 3kg</h4>
+                    <p class="producto-precio">S/. 156.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/GranPlus-gatos.png" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">GranPlus 3kg</h4>
+                    <p class="producto-precio">S/. 89.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/Canbo-gatos.png" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Canbo 3kg</h4>
+                    <p class="producto-precio">S/. 88.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/Ricocat-gatos.jpg" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Ricocat 3kg</h4>
+                    <p class="producto-precio">S/. 37.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="alimentoHumedo" id="alimentoHumedo">
+        <h1>ALIMENTO HÚMEDO</h1>
+        <div class="all-productos">
+
+            <div class="productos-container">
+                <img src="../SRC/PRO-PLAN-PERRO-ADULTOS-POLLO-Y-ARROX-368.5G.jpg.webp" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">ProPlan Adult 3kg</h4>
+                    <p class="producto-precio">S/. 105.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/DogChow-perro.png" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Gran Plus 3kg</h4>
+                    <p class="producto-precio">S/. 57.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/CANBO-CACHORRO-HIPOALERGÉNICO-330-gr.jpg" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Canbo Adulto 3kg</h4>
+                    <p class="producto-precio">S/. 56.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/ricocan-lata-x-330-gr-babycan.jpg" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Ricocan 3kg</h4>
+                    <p class="producto-precio">S/. 37.50</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/LATA-GATO-ADULTO-85-G-PRO-PLAN.jpg" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">ProPlan Adult 3kg</h4>
+                    <p class="producto-precio">S/. 156.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/Lata-felix.png" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">GranPlus 3kg</h4>
+                    <p class="producto-precio">S/. 89.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/Gambas-adulto.jpg" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Canbo 3kg</h4>
+                    <p class="producto-precio">S/. 88.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+
+            <div class="productos-container">
+                <img src="../SRC/CACHORROS-CARNE.jpg" alt="">
+                <div class="producto-info">
+                    <h4 class="producto-titulo">Ricocat 3kg</h4>
+                    <p class="producto-precio">S/. 37.90</p>
+                    <a href="" class="producto-comprar"><button>Comprar</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+             <div class="social">
+                 <a href="https://www.instagram.com/veterinaria.patitas/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://walink.co/2a4edc"><i class="fab fa-whatsapp"></i></a>
+                 <a href="https://www.facebook.com/Veterinaria-Patitas-103055171431405/"><i class="fab fa-facebook-f"></i></a>
+             </div>
+ 
+             <ul class="list">
+                 <li>
+                     <a href="../HTML/index.html">Inicio</a>
+                 </li>
+                 <li>
+                     <a href="../HTML/Productos.html">Productos</a>
+                 </li>
+                 <li>
+                     <a href="../HTML/Servicios.html">Servicios</a>
+                 </li>
+                 <li>
+                     <a href="../HTML/Contacto.html">Contacto</a>
+                 </li>
+                 <li>
+                     <a href="../HTML/Nosotros.html">Nosotros</a>
+                 </li>
+             </ul>
+             <p class="copyright">
+                 Pataza Store © 2025 | Derechos reservados
+             </p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="../JS/Slide.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

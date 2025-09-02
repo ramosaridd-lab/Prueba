@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/Encabezado.css">
+    <link rel="stylesheet" href="../CSS/Style-body.css">
+    <link rel="stylesheet" href="../CSS/Servicios.css">
+    <link rel="stylesheet" href="../CSS/Footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="encabezado">
+        <div class="logoVP">
+            <a href="../HTML/index.html">
+                <img href="../HTML/Productos.html" src="../SRC/Logo_patitas.png" alt="Logo Veterinaria Patitas">
+            </a>
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="../HTML/Index.html">Inicio</a></li>
+                <li><a href="../HTML/Productos.html">Productos</a></li>
+                <li><a href="../HTML/Servicios.html">Servicios</a></li>
+                <li><a href="../HTML/Contacto.html">Contactos</a></li>
+                <li><a href="../HTML/Nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+        <a href="IniciaSesion.html" class="boton_ingresar_registrarse"><button>Iniciar Sesión</button></a>
+        <a onclick="openNav()" href="#" class="boton-menu"><button>Menú</button></a>
+        
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="#" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="../HTML/index.html">Inicio</a>
+                <a href="../HTML/Productos.html">Productos</a>
+                <a href="../HTML/Servicios.html">Servicios</a>
+                <a href="../HTML/Contacto.html">Contactos</a>
+                <a href="../HTML/Nosotros.html">Nosotros</a>
+
+                <div class="boton-nosotros">
+                    <a href="IniciaSesion.html"><button>Iniciar Sesión</button></a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <section class="Especialistas-index">
+        <br>
+        <h1>NUESTROS ESPECIALISTAS</h1>
+        <div class="descripcionEspecialistas-index">
+            <!--Tarjeta de presentación- veterinarios-->
+            <div class="card">
+                <div class="head">
+                    <div class="circle"></div>
+                    <div class="img">
+                        <img src="../SRC/Vet-4.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="descripcion">
+                    <h3>Angela Díaz</h3>
+                    <h4>Diseñadora</h4>
+                    <p> Angela Díaz, egresada de URP en Diseño de modas. 
+                        El amor por los animales la impulsó a seguir esta vocación. Con sólida formación académica y 
+                        experiencia en diversas áreas, se dedico a proporcionar atención integral y 
+                        compasiva a nuestros amigos peludos con los mejores diseños y materiales.</p>
+                </div>
+            </div>
+            <!--Veterinaria 2-->
+            <div class="card">
+                <div class="head">
+                    <div class="circle-2"></div>
+                    <div class="img">
+                        <img src="../SRC/Vet-5.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="descripcion">
+                    <h3>Joaquín Valverde</h3>
+                    <h4>Diseñador humano-mascota</h4>
+                    <p>Joaquín Valverde, graduado de UPHI en Diseño de modas. 
+                    Su pasión por los animales lo llevó a especializarse en la creación de colecciones que 
+                    armonicen entre el estilo humano y el animal, cuidando estética y coherencia..</p>
+                </div>
+            </div>
+            <!--Veterinaria 3-->
+            <div class="card">
+                <div class="head">
+                    <div class="circle"></div>
+                    <div class="img">
+                        <img src="../SRC/Vet-6.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="descripcion">
+                    <h3>Johana Pineda</h3>
+                    <h4>Patronista y costurera especializada</h4>
+                    <p>Johana Pineda, capaz de adaptar moldes tanto para humanos como para mascotas, con experiencia en confección de prendas pequeñas y resistentes.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="head">
+                    <div class="circle-2"></div>
+                    <div class="img">
+                        <img src="../SRC/Vet-7.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="descripcion">
+                    <h3>Dra. Liliana Gomez</h3>
+                    <h4>Especialista en dermatología</h4>
+                    <p>Liliana Gomez, es especialista en dermatología veterinaria graduada de 
+                    UNICA. Se dedica a brindar atención especializada y eficaces para validar que los materiales
+                     y cortes no afecten la salud ni movilidad del animal.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="head">
+                    <div class="circle"></div>
+                    <div class="img">
+                        <img src="../SRC/Vet-8.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="descripcion">
+                    <h3>Dra. Michael Lopez</h3>
+                    <h4>Especialista en comportamiento animal</h4>
+                    <p>Michael Lopez, etólogo especialista, formada en UNAU. 
+                        Su dedicación se centra en brindar cuidado a las mascotas y evaluar la reaccionan 
+                        a la ropa, para evitar estrés o incomodidad, aplicando técnicas avanzadas y 
+                        conocimientos actualizados para mejorar su salud y calidad de vida.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="head">
+                    <div class="circle-2"></div>
+                    <div class="img">
+                        <img src="../SRC/Vet-9.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="descripcion">
+                    <h3>Susana Estrada</h3>
+                    <h4>Veterinaria general</h4>
+                    <p>Susana Estrada, especialista en veterinaria general, graduado de UPC. 
+                    Encargada de brindar atención médica integral a animales domésticos, especialmente en consultas de rutina y prevención.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-servicios-vp">
+        <h1>NUESTROS SERVICIOS</h1>
+        <div class="container-serv">
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="../SRC/Hospedaje.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>HOSPEDAJE</h2>
+                            <p>Hospedaje Canino y Felino donde nuestros 
+                            engreídos se encuentran en libertad, con máxima seguridad y confianza bajo 
+                            supervisión profesional y asistencia veterinaria durante su estancia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="../SRC/Consulta-vet.jpeg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>CONSULTA</h2>
+                            <p>Las consultas son muy importantes para conocer el estado de salud de nuestro peludito, esto nos ayudará a 
+                            detectar o prevenir algún problema que pueda tener.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="../SRC/Alimentos-nutricion.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>NUTRICIÓN</h2>
+                            <p>Tenemos especialistas en nutrición, se encargarán de darte las mejores recomendación de alimentación para cuidar 
+                            la salud de tu mascota y prevenir enfermedades, que muchas veces son causadas por la mala alimentación y falta de nutrientes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="../SRC/vacunacion-gatos.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>VACUNACIÓN</h2>
+                            <p>Vacunar a nuestras mascotas es muy importante para que evitemos que nuestras mascotas puedan contraer alguna enfermedad, 
+                                además de ayudar a proteger también mantienen a nuestras mascotas sanas. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="../SRC/Desparacitacion.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>DESPARACITACIÓN</h2>
+                            <p>La desparasitación proporciona a tu mascota una protección 
+                                ante los parásitos internos y externos más frecuentes que podrían dañar la salud de nuestros peludos. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="../SRC/Tratamiento.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>Alergias</h2>
+                            <p>Si nuestras mascotas tuvieron algún problema de salud, tenemos un servicio de tratamiento con los mejores especialistas
+                                que ayudarán en la pronta recuperación.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="../SRC/cirugias.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>Diseño de ropa</h2>
+                            <p>Especializado en prendas para mascotas, conoce materiales cómodos, seguros y funcionales para diferentes razas y tamaños.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer">
+             <div class="social">
+                 <a href="https://www.instagram.com/veterinaria.patitas/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://walink.co/2a4edc"><i class="fab fa-whatsapp"></i></a>
+                 <a href="https://www.facebook.com/Veterinaria-Patitas-103055171431405/"><i class="fab fa-facebook-f"></i></a>
+             </div>
+ 
+             <ul class="list">
+                 <li>
+                     <a href="../HTML/index.html">Inicio</a>
+                 </li>
+                 <li>
+                     <a href="../HTML/Productos.html">Productos</a>
+                 </li>
+                 <li>
+                     <a href="../HTML/Servicios.html">Servicios</a>
+                 </li>
+                 <li>
+                     <a href="../HTML/Contacto.html">Contacto</a>
+                 </li>
+                 <li>
+                     <a href="../HTML/Nosotros.html">Nosotros</a>
+                 </li>
+             </ul>
+             <p class="copyright">
+                 Pataza Store © 2025 | Derechos reservados
+             </p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="../JS/Slide.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
